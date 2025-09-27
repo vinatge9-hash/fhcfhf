@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Niyantri Cafe - Home</title>
+  <meta name='description' content='Niyantri Cafe offers crafted coffee, delightful pastries, and a cozy space to work or unwind.'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='bg-white text-gray-800 font-sans'>
+  <!-- Navigation -->
+  <header>
+    <nav class='bg-white shadow sticky top-0 z-50'>
+      <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <div class='flex justify-between items-center h-16'>
+          <div class='flex-shrink-0'>
+            <a href='index.html' class='text-2xl font-bold text-gray-800'>Niyantri Cafe</a>
+          </div>
+          <div class='hidden md:block'>
+            <div class='ml-10 flex items-baseline space-x-4'>
+              <a href='index.html' class='px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900'>Home</a>
+              <a href='menu.html' class='px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900'>Menu</a>
+              <a href='about.html' class='px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900'>About</a>
+              <a href='contact.html' class='px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900'>Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero with background image -->
+  <section class='min-h-screen bg-cover bg-center relative' style="background-image: url('https://images.pexels.com/photos/11114741/pexels-photo-11114741.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');">
+    <div class='absolute inset-0 bg-black opacity-40'></div>
+    <div class='relative z-10 max-w-4xl mx-auto px-4 py-40 text-center text-white'>
+      <h1 class='text-5xl md:text-6xl font-[Montserrat] font-bold mb-4'>Niyantri Cafe</h1>
+      <p class='text-xl md:text-2xl mb-8'>Crafted coffee, warm pastries, and a cozy space to connect & create.</p>
+      <div class='flex flex-col sm:flex-row justify-center gap-4'>
+        <a href='menu.html' class='bg-[#D2B48C] text-[#3C2415] px-6 py-3 rounded-full font-semibold hover:bg-[#c89f6f] transition-all duration-300'>View Menu</a>
+        <a href='contact.html' class='bg-transparent border border-[#D2B48C] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#D2B48C] hover:text-[#3C2415] transition-all duration-300'>Find Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick highlights -->
+  <section class='py-12'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <div class='grid grid-cols-1 md:grid-cols-3 gap-8 text-center'>
+        <div class='p-6 bg-white rounded-xl shadow'>
+          <div class='mb-4 text-3xl'>Fresh Coffee</div>
+          <p class='text-gray-600'>Small-batch roasts, ethically sourced and expertly brewed.</p>
+        </div>
+        <div class='p-6 bg-white rounded-xl shadow'>
+          <div class='mb-4 text-3xl'>Artisan Pastries</div>
+          <p class='text-gray-600'>Daily-made croissants, scones, and treats.</p>
+        </div>
+        <div class='p-6 bg-white rounded-xl shadow'>
+          <div class='mb-4 text-3xl'>Cozy Space</div>
+          <p class='text-gray-600'>Comfortable seating, power outlets, and wifi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
